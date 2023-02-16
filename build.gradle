@@ -34,3 +34,5 @@ test {
     useJUnitPlatform()
     systemProperty 'selenide.headless', System.getProperty('selenide.headless')
 }
+
+def void useJUnit5(Closure<String> stringClosure) {}
